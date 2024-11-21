@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import logo from "./assets/footer_logo.svg";
 
 function Footer() {
     return (
@@ -7,7 +8,7 @@ function Footer() {
             <div className="inner">
                 <div className="col-left">
                     <div className="logo-area">
-                        <a></a>
+                        <a><img src={logo} alt='로고이미지'/></a>
                     </div>
                     <ul className="util-area">
                         <li className="util-item"><a href="#">이용약관</a></li>

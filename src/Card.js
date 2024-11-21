@@ -49,9 +49,6 @@ function Card() {
 
 const Cardwrap = styled.ul`
     margin: 0 1.6rem;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1.4rem;
     border:2px solid red;
     
     & > li {
