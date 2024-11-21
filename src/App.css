@@ -1,0 +1,250 @@
+/* common.css */
+/* ------ common css ------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+    font-size: 62.5%;
+    height:100%;
+}
+body {
+	line-height: 1;
+    height:100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    margin:0;
+    padding:0;
+    font:inherit;
+    color:inherit;
+    word-break: break-all;
+}
+*, :after, :before {
+    box-sizing:border-box;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width:100%;
+}
+button {
+    background:none;
+    border:0;
+    cursor:pointer;
+}
+a {
+    text-decoration:none
+}
+
+/* 웹뷰 세팅 오버스크롤 방지 (iOS 및 일반 브라우저 모두 적용) */
+* {
+    -webkit-tap-highlight-color:rgba(255,255,255,0);  
+    user-select: none;
+    /* Keyword values */
+    -webkit-touch-callout: default;
+    -webkit-touch-callout: none;
+    
+    /* Global values */
+    -webkit-touch-callout: initial;
+    -webkit-touch-callout: inherit;
+    -webkit-touch-callout: unset;
+}
+
+/* 팝업창 오픈시 */
+.hidden {
+    overflow: hidden;
+}
+
+
+/* ------ common css ------ */
+:root {
+    -webkit-tap-highlight-color:transparent;
+    -webkit-text-size-adjust:100%;
+    text-size-adjust:100%;
+    cursor:default;
+    line-height:1.5;
+    overflow-wrap:break-word;
+    -moz-tab-size:4;
+    tab-size:4;
+
+    /* 색상관련 */
+    --primary-color:#202020;
+    --revu-color:#E50B14;
+    --white:#fff;
+    --silver:#BCC5C7;
+    --quicksilver:#A7A7A7;
+    --lightsilver:#D9D9D9;
+    --black:#000;
+    --whitesmoke:#EEEEEE;
+    --whitewood:#F5F6F8;
+    --snowwhite:#FAFAFA;
+    --success-color:#00B500;
+    --dimgray:#747474;
+    --whitegray:#E4E4E4;
+    --puregray:#E2E2E2;
+    --darkred:#A1080E;
+    --gray:#606060;
+    --gray-01:#555555;
+    --purple:#570BE5;
+    --lightpurple:#F8F4FF;
+
+    --n20-color:#F4F5F5;
+    --n40-color:#E9EBEC;
+    --n60-color:#E2E4E4;
+    --n80-color:#D8DDDE;
+    --n100-color:#BBC6C9;
+    --n200-color:#A0ACB1;
+    --n300-color:#788991;
+    --n400-color:#5A6A72;
+    --n500-color:#415058;
+    --n600-color:#29363D;
+    --prim-L20:#FEF0F1;
+    --prim-L40:#FCC0C2;
+    --prim-L60:#FBA7AB;
+    --prim-L80:#FA8F94;
+    --prim-L100:#F9777D;
+    --prim-L200:#F65F66;
+    --prim-L300:#F6464E;
+    --prim-L400:#F52E36;
+    --prim-L500:#F4151F;
+ 
+
+    /* 폰트관련 */
+    --base-line-height:1.4;
+    --font-family-suit: "SUIT", sans-serif;
+    --base-font-size: 1.6rem; 
+    --font-weight-light: 300;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+
+    /* 폰트계층 */
+    /* H1 */
+    --font-h1-size: 3rem;
+    --font-h1-weight: var(--font-weight-extrabold); 
+    --font-h1-line-height: 1.2;
+    --font-h1-letter-spacing: calc(var(--font-h1-size) * (-2 / 100));
+    
+    /* H2 */
+    --font-h2-size: 2rem;
+    --font-h2-weight: var(--font-weight-extrabold); 
+    --font-h2-letter-spacing: calc(var(--font-h2-size) * (-0.3 / 100));
+    
+    /* H3 */
+    --font-h3-size: 1.8rem;
+    --font-h3-weight: var(--font-weight-bold); 
+    --font-h3-letter-spacing: calc(var(--font-h3-size) * (-0.5 / 100));
+    
+    /* H4 */
+    --font-h4-size: 1.6rem;
+    --font-h4-weight: var(--font-weight-extrabold); 
+    --font-h4-letter-spacing: calc(var(--font-h4-size) * (-2 / 100));
+
+    /* H5 */
+    --font-h5-size: 1.5rem;
+    --font-h5-weight: var(--font-weight-bold); 
+    --font-h5-letter-spacing: calc(var(--font-h5-size) * (-0.3 / 100));
+    
+    /* title */
+    --font-title-size: 1.4rem;
+    --font-title-weight: var(--font-weight-bold); 
+    --font-title-letter-spacing: calc(var(--font-title-size) * (-0.5 / 100));
+
+    /* bodyL */
+    --font-bodyL-size: 1.4rem;
+    --font-bodyL-weight: var(--font-weight-medium); 
+    --font-bodyL-letter-spacing: calc(var(--font-bodyL-size) * (-0.3 / 100));
+    
+    /* bodyM */
+    --font-bodyM-size: 1.4rem;
+    --font-bodyM-weight: var(--font-weight-medium); 
+    --font-bodyM-line-height: 1.3;
+    --font-bodyM-letter-spacing: calc(var(--font-bodyM-size) * (-0.3 / 100));
+    
+    /* Callout */
+    --font-callout-size: 1.4rem;
+    --font-callout-weight: var(--font-weight-bold); 
+    --font-callout-letter-spacing: calc(var(--font-callout-size) * (-0.5 / 100));
+    
+    /* Callout Small */
+    --font-callout-small-size: 1rem;
+    --font-callout-small-weight: var(--font-weight-bold);  
+    --font-callout-small-letter-spacing: calc(var(--font-callout-small-size) * (-2 / 100));
+
+    /* Caption */
+    --font-caption-size: 1.2rem;
+    --font-caption-weight: var(--font-weight-medium); 
+    --font-caption-letter-spacing: calc(var(--font-caption-size) * (-0.5 / 100));
+
+    /* Caption small */
+    --font-caption-small-size: 1rem;
+    --font-caption-small-weight:  var(--font-weight-bold);  
+    --font-caption-small-letter-spacing: calc(var(--font-caption-small-size) * (-2 / 100));
+    /* /// 폰트계층 /// */
+}
+
+body {
+    font-family: var(--font-family-suit);
+    font-weight: var(--font-weight-light);
+    color: var(--primary-color);
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    word-break: break-all;
+}
+@font-face {
+    font-family: 'SUIT';
+    font-weight: 300;
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SUIT';
+    font-weight: 500;
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SUIT';
+    font-weight: 700;
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'SUIT';
+    font-weight: 800;
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraBold.woff2') format('woff2');
+}
+/* common.css */
+
+
