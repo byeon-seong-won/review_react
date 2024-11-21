@@ -30,7 +30,6 @@ function Footer() {
     )
 }
 
-
 const Footerwrap = styled.div`
     padding: 38px 16px 190px;
     background: var(--snowwhite);
