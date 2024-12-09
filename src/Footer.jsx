@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styled from 'styled-components';
 import logo from "./assets/footer_logo.svg";
 
@@ -29,6 +29,8 @@ function Footer() {
         </Footerwrap>
     )
 }
+
+export default Footer;
 
 const Footerwrap = styled.div`
     padding: 38px 16px 190px;
@@ -62,5 +64,5 @@ const Footerwrap = styled.div`
     }
 `;
 
-export default Footer;
+
 
