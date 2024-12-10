@@ -1,13 +1,15 @@
-import React from "react";
 import styled from "styled-components";
 
 function Alertdialog() {
   return (
-    <div>
+    <dialog>
       
-    </div>
+    </dialog>
   )
 }
 
 
-export default Alertdialog;
+
+export default Alertdialog
+
+
