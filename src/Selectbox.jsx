@@ -13,7 +13,7 @@ function Selectbox() {
     <>
       <Selectwrap onClick={boxClick}>
         <span>포인트 관련문의 여기는 문장길 때가 있으니까 한줄줄바꿈한줄줄바꿈</span>
-        <span className="ico_arr_up">
+        <span className={`ico_arr_up ${open ? "on" : ""}`}>
           <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M11 1L6 6L1 1" stroke="#B1B8BD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
@@ -32,21 +32,19 @@ function Selectbox() {
   )
 }
 
-
 export default Selectbox
 
-
 const Selectwrap = styled.div`
-    position: relative;
-    width: 100%;
-    padding: 1.2rem 2.2rem 1.2rem 2rem;
-    border: 1px solid var(--n60-color);
-    border-radius: 0.8rem;
-    background: var(--white);
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  position: relative;
+  width: 100%;
+  padding: 1.2rem 2.2rem 1.2rem 2rem;
+  border: 1px solid var(--n60-color);
+  border-radius: 0.8rem;
+  background: var(--white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   & span {
     color: var(--n100-color);
@@ -63,37 +61,39 @@ const Selectwrap = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &.on {
+      transform: rotate(180deg);
+    }
   }
 `
 
 
 const Listwrap = styled.ul`
-    position: relative;
-    z-index: 10;
-    margin-top: 0.5rem;
-    padding: 0.6rem 0.6rem 0.6rem 1rem; 
+  position: relative;
+  z-index: 10;
+  margin-top: 0.5rem;
+  padding: 0.6rem 0.6rem 0.6rem 1rem; 
+  width: 100%;
+  display: none;
+  border: 0.1rem solid var(--n60-color);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
+  border-radius: 0.8rem;
+  background: var(--white);
+
+  & li {
+    padding: 1rem;
     width: 100%;
-    display: none;
-    border: 0.1rem solid var(--n60-color);
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
+    color: var(--n200-color);
+    font-size: 1.4rem;
+    font-weight: var(--font-weight-medium);
+    letter-spacing: calc(1.4rem * (-0.3 / 100));
+    border: none;
     border-radius: 0.8rem;
-    background: var(--white);
+    cursor: pointer;
+  }
 
-    & li {
-      padding: 1rem;
-      width: 100%;
-      color: var(--n200-color);
-      font-size: 1.4rem;
-      font-weight: var(--font-weight-medium);
-      letter-spacing: calc(1.4rem * (-0.3 / 100));
-      border: none;
-      border-radius: 0.8rem;
-      cursor: pointer;
-    }
-
-    &.on {
-      display: block;
-    }
-
-    
+  &.on {
+    display: block;
+  }
 `
