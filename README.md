@@ -8,20 +8,20 @@
 - 페이지 렌더링 시간 단축을 위해 태그 및 클래스 최소화, 올바른 css 선언순서
 
 <h2>선언 블록 내 속성 권장 순서</h2>
-1. **위치 및 표시** 관련 속성: 
-ex) display, position, top, right, bottom...
-2. **사이즈** 관련 속성: 
-ex) width, height, min-width, min-height
-3. **박스 모델** 관련 속성: 
-ex) margin, padding, border, box-sizing
-4. **타입 및 텍스트** 관련 속성: 
-ex) font, text-align, color, line-height, letter-spacing
-5. **배경** 관련 속성:  
-ex) background, background-size, background-position, background-image
-6. **그리드 및 플렉스** 관련 속성: 
-ex) display: grid, display: flex, flex-direction 
-7. **상태 관련 속성** (hover, focus 등):
-ex) :hover: :focus, :active: flex, flex-direction 
+<p>1. **위치 및 표시** 관련 속성: </p>
+<p>ex) display, position, top, right, bottom...</p>
+<p>2. **사이즈** 관련 속성: </p>
+<p>ex) width, height, min-width, min-height</p>
+<p>3. **박스 모델** 관련 속성: </p>
+<p>ex) margin, padding, border, box-sizing</p>
+<p>4. **타입 및 텍스트** 관련 속성: </p>
+<p>ex) font, text-align, color, line-height, letter-spacing</p>
+<p>5. **배경** 관련 속성:  </p>
+<p>ex) background, background-size, background-position, background-image</p>
+<p>6. **그리드 및 플렉스** 관련 속성: </p>
+<p>ex) display: grid, display: flex, flex-direction </p>
+<p>7. **상태 관련 속성** (hover, focus 등):</p>
+<p>ex) :hover: :focus, :active: flex, flex-direction </p>
 
 
 
