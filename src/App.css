@@ -24,7 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 html {
-    font-size: 62.5%;
+    font-size: clamp(50%, 2vw, 62.5%);
     height:100%;
 }
 body {
@@ -69,7 +69,6 @@ a {
     text-decoration:none
 }
 
-/* 웹뷰 세팅 오버스크롤 방지 (iOS 및 일반 브라우저 모두 적용) */
 * {
     -webkit-tap-highlight-color:rgba(255,255,255,0);  
     user-select: none;
@@ -245,6 +244,8 @@ body {
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-ExtraBold.woff2') format('woff2');
 }
 /* common.css */
+
+
 
 
 
