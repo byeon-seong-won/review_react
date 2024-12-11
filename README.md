@@ -1,12 +1,11 @@
 <h1> 리뷰클릭 공통 컴포넌트 작업(React) </h1>
 
 
-<ul>🔧 중점 둔 사항 🔧 <ul>
-<li>- map() 함수를 이용해 데이터 배열로 항목관리하여 반복되는 코드 제거</li>
-<li>- react hook(useState)를 이용한 상태별 컴포넌트화</li>
-<li>- 상태별 아이콘은 background-image로 넣어 제어</li>
-<li>- 페이지 렌더링 시간 단축을 위해 태그 및 클래스 최소화, 올바른 css 선언순서</li>
-
+<h3>🔧 중점 둔 사항 🔧 <h3>
+<p>- map() 함수를 이용해 데이터 배열로 항목관리하여 반복되는 코드 제거</p>
+<p>- react hook(useState)를 이용한 상태별 컴포넌트화</p>
+<p>- 상태별 아이콘은 background-image로 넣어 제어</p>
+<p>- 페이지 렌더링 시간 단축을 위해 태그 및 클래스 최소화, 올바른 css 선언순서</p>
 
 <ul>선언 블록 내 속성 권장 순서</ul>
 <li>1. **위치 및 표시** 관련 속성: </li>
@@ -27,17 +26,17 @@
 
 
 
-<h4>🔧 작업내역 🔧 <h4>
-footer 
-selectbox 
-- 리엑트 훅(useState)이용해서 클릭시 드롭다운, 아이콘 변화
-titlebar
-- 캠페인 공통 header => CampaignTitleBar.jsx
-- 기본 공통 header => DefaultTitleBar.jsx
-tooltip 
-chip 
-- 여러개 li태그 사용 => map() 함수로 데이터 배열로 관리
-- 리엑트 훅(useState)이용해서 클릭시 on클래스 add되어 스타일 변경
+<h3>🔧 작업내역 🔧 <h3>
+<p>footer</p> 
+<ul>selectbox</ul>
+<li>- 리엑트 훅(useState)이용해서 클릭시 드롭다운, 아이콘 변화</li>
+<ul>titlebar</ul>
+<li>- 캠페인 공통 header => CampaignTitleBar.jsx</li>
+<li>- 기본 공통 header => DefaultTitleBar.jsx</li>
+<p>tooltip</p> 
+<ul>chip</ul>
+<li>- 여러개 li태그 사용 => map() 함수로 데이터 배열로 관리</li>
+<li>- 리엑트 훅(useState)이용해서 클릭시 on클래스 add되어 스타일 변경</li>
 
 
 
