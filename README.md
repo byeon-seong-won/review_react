@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+<h1> 리뷰클릭 공통 컴포넌트 작업(React) </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h3>🔧 중점 둔 사항 🔧 <h3>
+<p>- map() 함수를 이용해 데이터 배열로 항목관리하여 반복되는 코드 제거</p>
+<p>- react hook(useState)를 이용한 상태별 컴포넌트화</p>
+<p>- 상태별 아이콘은 background-image로 넣어 제어</p>
+<p>- 페이지 렌더링 시간 단축을 위해 태그 및 클래스 최소화, 올바른 css 선언순서</p>
 
-In the project directory, you can run:
+<ul>선언 블록 내 속성 권장 순서</ul>
+<li>1. **위치 및 표시** 관련 속성: </li>
+<li>ex) display, position, top, right, bottom...</li>
+<li>2. **사이즈** 관련 속성: </li>
+<li>ex) width, height, min-width, min-height</li>
+<li>3. **박스 모델** 관련 속성: </li>
+<li>ex) margin, padding, border, box-sizing</li>
+<li>4. **타입 및 텍스트** 관련 속성: </li>
+<li>ex) font, text-align, color, line-height, letter-spacing</li>
+<li>5. **배경** 관련 속성:  </li>
+<li>ex) background, background-size, background-position, background-image</li>
+<li>6. **그리드 및 플렉스** 관련 속성: </li>
+<li>ex) display: grid, display: flex, flex-direction </li>
+<li>7. **상태 관련 속성** (hover, focus 등):</li>
+<li>ex) :hover: :focus, :active: flex, flex-direction </li>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<h3>🔧 작업내역 🔧 <h3>
+<p>footer</p> 
+<ul>selectbox</ul>
+<li>- 리엑트 훅(useState)이용해서 클릭시 드롭다운, 아이콘 변화</li>
+<ul>titlebar</ul>
+<li>- 캠페인 공통 header => CampaignTitleBar.jsx</li>
+<li>- 기본 공통 header => DefaultTitleBar.jsx</li>
+<p>tooltip</p> 
+<ul>chip</ul>
+<li>- 여러개 li태그 사용 => map() 함수로 데이터 배열로 관리</li>
+<li>- 리엑트 훅(useState)이용해서 클릭시 on클래스 add되어 스타일 변경</li>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
