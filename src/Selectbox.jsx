@@ -32,19 +32,21 @@ function Selectbox() {
   )
 }
 
+
 export default Selectbox
 
+
 const Selectwrap = styled.div`
-  position: relative;
-  width: 100%;
-  padding: 1.2rem 2.2rem 1.2rem 2rem;
-  border: 1px solid var(--n60-color);
-  border-radius: 0.8rem;
-  background: var(--white);
-  text-align: left;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 1.2rem 2.2rem 1.2rem 2rem;
+    border: 1px solid var(--n60-color);
+    border-radius: 0.8rem;
+    background: var(--white);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
   & span {
     color: var(--n100-color);
@@ -70,30 +72,32 @@ const Selectwrap = styled.div`
 
 
 const Listwrap = styled.ul`
-  position: relative;
-  z-index: 10;
-  margin-top: 0.5rem;
-  padding: 0.6rem 0.6rem 0.6rem 1rem; 
-  width: 100%;
-  display: none;
-  border: 0.1rem solid var(--n60-color);
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
-  border-radius: 0.8rem;
-  background: var(--white);
-
-  & li {
-    padding: 1rem;
+    position: relative;
+    z-index: 10;
+    margin-top: 0.5rem;
+    padding: 0.6rem 0.6rem 0.6rem 1rem; 
     width: 100%;
-    color: var(--n200-color);
-    font-size: 1.4rem;
-    font-weight: var(--font-weight-medium);
-    letter-spacing: calc(1.4rem * (-0.3 / 100));
-    border: none;
+    display: none;
+    border: 0.1rem solid var(--n60-color);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.14);
     border-radius: 0.8rem;
-    cursor: pointer;
-  }
+    background: var(--white);
 
-  &.on {
-    display: block;
-  }
+    & li {
+      padding: 1rem;
+      width: 100%;
+      color: var(--n200-color);
+      font-size: 1.4rem;
+      font-weight: var(--font-weight-medium);
+      letter-spacing: calc(1.4rem * (-0.3 / 100));
+      border: none;
+      border-radius: 0.8rem;
+      cursor: pointer;
+    }
+
+    &.on {
+      display: block;
+    }
+
+    
 `

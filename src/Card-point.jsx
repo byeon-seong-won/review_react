@@ -7,15 +7,15 @@ function Card() {
         <Cardwrap>
             <li>
                 <p>지급완료</p>
-                <div class="status_wrap">
-                    <div class="thumb-area">
+                <div className="status_wrap">
+                    <div className="thumb-area">
                         <img src={prd} alt="상품리스트" />
                     </div>
-                    <div class="info-area">
-                        <p class="date">2024.8.5</p>
-                        <span class="title">[리뷰] 00베이커리 모찌빵 말줄임</span>
-                        <div class="point-box">
-                            <p class="point">25,000P</p>
+                    <div className="info-area">
+                        <p className="date">2024.8.5</p>
+                        <span className="title">[리뷰] 00베이커리 모찌빵 말줄임</span>
+                        <div className="point-box">
+                            <p className="point">25,000P</p>
                         </div>
                     </div> 
                 </div>
