@@ -8,11 +8,15 @@ import DefaultTitleBar from './DefaultTitleBar.jsx';
 import Tooltip from './Tooltip.jsx';
 import Chip from './Chip.jsx';
 import Navbar from './Navbar.jsx';
+import Snackbar from './Snackbar.jsx';
+import SubTItleBar from './SubTItleBar.jsx';
 
 
 function App() {
   return (
     <>
+      <SubTItleBar/>
+      <Snackbar/>
       <Chip/>
       <Tooltip/>
       <DefaultTitleBar/>
