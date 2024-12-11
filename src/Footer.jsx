@@ -35,14 +35,14 @@ export default Footer;
 const Footerwrap = styled.div`
     padding: 38px 16px 190px;
     background: var(--snowwhite);
-
-    .util-area {
+    
+    & .util-area {
         margin-top: 35px;
         display: flex;
         align-items: center;
         gap: 20px;
 
-        a {
+        & a {
             color: var(--n300-color);
             font-size: 12px;
             font-weight: var(--font-weight-medium);
@@ -51,11 +51,11 @@ const Footerwrap = styled.div`
         }
     }
 
-    .address {
+    & .address {
         margin-top: 18px;
     }
-    .address,
-    .small {
+    & .address,
+    & .small {
         display: block;
         color: var(--n200-color);
         font-weight: var(--font-weight-medium);

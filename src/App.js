@@ -1,7 +1,8 @@
 import './App.css';
 import React from 'react';
 import Footer from './Footer.jsx';
-import Card from './Card-point.jsx';
+import PointCard from './PointCard.jsx';
+import CampaignCard from './CampaignCard.jsx';
 import Selectbox from './Selectbox.jsx';
 import CampaignTitleBar from './CampaignTitleBar.jsx';
 import DefaultTitleBar from './DefaultTitleBar.jsx';
@@ -21,7 +22,8 @@ function App() {
       <Tooltip/>
       <DefaultTitleBar/>
       <CampaignTitleBar/>
-      <Card/>
+      <PointCard/>
+      <CampaignCard/>
       <Selectbox/>
       <Footer/>
       <Navbar/>

@@ -33,28 +33,28 @@ function Navbar() {
 
     return (
         <Navbarwrap>
-            <div class="navbar-left" onClick={() => navClick(0)}>
-                <div class={`navbar-item ${index === 0 ? "active" : ""}`}>
+            <div className="navbar-left" onClick={() => navClick(0)}>
+                <div className={`navbar-item ${index === 0 ? "active" : ""}`}>
                     <div>
                         <span>
                             {navItems[0].svg}
                         </span>
-                        <span class="navbar-item-txt">{navItems[0].name}</span>
+                        <span className="navbar-item-txt">{navItems[0].name}</span>
                     </div>
                 </div>
             </div>
-            <div class="navbar-main">
+            <div className="navbar-main">
                 <span>
                     <img src={navMain} alt="마이페이지"/>
                 </span>
             </div>
-            <div class="navbar-right" onClick={() => navClick(1)}>
-                <div class={`navbar-item ${index === 1 ? "active" : ""}`}>
+            <div className="navbar-right" onClick={() => navClick(1)}>
+                <div className={`navbar-item ${index === 1 ? "active" : ""}`}>
                     <div>
                         <span>
                             {navItems[1].svg}
                         </span>
-                        <span class="navbar-item-txt">{navItems[1].name}</span>
+                        <span className="navbar-item-txt">{navItems[1].name}</span>
                     </div>
                 </div>
             </div>
