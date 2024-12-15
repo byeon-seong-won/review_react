@@ -37,10 +37,6 @@
 <p>Card</p>
 <p>포인트지급내역 => PointCard.jsx</p>
 <p>나의캠페인내역 => CampaignCard.jsx</p>
-<p>Snackbar.jsx</p>
-<p>Subtitlebar.jsx</p>
-<p>Tooltip.jsx</p>
-<p>Footer.jsx</p>
 
 
 
