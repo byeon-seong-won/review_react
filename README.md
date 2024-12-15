@@ -10,34 +10,37 @@
 <p>- 반응형 작업을 위한 rem사용, html의 font-size 속성에 clamp() 함수를 이용하여 미디어 쿼리 없이 동적 크기 조정 </p>
 
 <br>
-<ul>## 선언 블록 내 속성 권장 순서</ul>
-<li>1. **위치 및 표시** 관련 속성: ex) display, position, top, right, bottom...</li>
-<li>2. **사이즈** 관련 속성: ex) width, height, min-width, min-height </li>
-<li>3. **박스 모델** 관련 속성: ex) margin, padding, border, box-sizing </li>
-<li>4. **타입 및 텍스트** 관련 속성: ex) font, text-align, color, line-height, letter-spacing </li>
-<li>5. **배경** 관련 속성: ex) background, background-size, background-position, background-image </li>
-<li>6. **그리드 및 플렉스** 관련 속성: ex) display: grid, display: flex, flex-direction </li>
-<li>7. **상태 관련 속성** (hover, focus 등): ex) :hover: :focus, :active: flex, flex-direction</li>
+<p>## 선언 블록 내 속성 권장 순서</p>
+<p>1. **위치 및 표시** 관련 속성: ex) display, position, top, right, bottom...</p>
+<p>2. **사이즈** 관련 속성: ex) width, height, min-width, min-height </p>
+<p>3. **박스 모델** 관련 속성: ex) margin, padding, border, box-sizing </p>
+<p>4. **타입 및 텍스트** 관련 속성: ex) font, text-align, color, line-height, letter-spacing </p>
+<p>5. **배경** 관련 속성: ex) background, background-size, background-position, background-image </p>
+<p>6. **그리드 및 플렉스** 관련 속성: ex) display: grid, display: flex, flex-direction </p>
+<p>7. **상태 관련 속성** (hover, focus 등): ex) :hover: :focus, :active: flex, flex-direction</lip
 
 <br><br>
 <p>🔧 작업내역 🔧 <p>
-<ul>selectbox.jsx</ul>
-<li>- 리엑트 훅(useState)이용해서 클릭시 드롭다운, 아이콘 변화</li>
-<ul>titlebar</ul>
-<li>- 캠페인 공통 header => CampaignTitleBar.jsx</li>
-<li>- 기본 공통 header => DefaultTitleBar.jsx</li>
-<ul>chip.jsx</ul>
-<li>- 여러개 li태그 사용 => map() 함수로 데이터 배열로 관리</li>
-<li>- 리엑트 훅(useState)이용해서 클릭시 on클래스 add되어 스타일 변경</li>
-<ul>Navbar.jsx</ul>
-<li>배열에 nav의 name과 svg를 담아서 map() 함수로 나열</li>
-<li>nav를 클릭시 해당 index의 상태만 변화 => 클릭한 index랑 해당 index 확인해서 적용하는 삼항연산자 사용</li>
-<li>onclick 이슈사항</li>
-<li>리엑트 훅(useState)을 이용해서 클릭시 on클래스 add되어 스타일 변경</li>
-<ul>Card</ul>
-<li>포인트지급내역 => PointCard.jsx</li>
-<li>나의캠페인내역 => CampaignCard.jsx</li>
-
+<p>selectbox.jsx</p>
+<p>- 리엑트 훅(useState)이용해서 클릭시 드롭다운, 아이콘 변화</p>
+<p>titlebar</p>
+<p>- 캠페인 공통 header => CampaignTitleBar.jsx</p>
+<p>- 기본 공통 header => DefaultTitleBar.jsx</p>
+<p>chip.jsx</p>
+<p>- 여러개 li태그 사용 => map() 함수로 데이터 배열로 관리</p>
+<p>- 리엑트 훅(useState)이용해서 클릭시 on클래스 add되어 스타일 변경</p>
+<p>Navbar.jsx</p>
+<p>배열에 nav의 name과 svg를 담아서 map() 함수로 나열</p>
+<p>nav를 클릭시 해당 index의 상태만 변화 => 클릭한 index랑 해당 index 확인해서 적용하는 삼항연산자 사용</p>
+<p>onclick 이슈사항</p>
+<p>리엑트 훅(useState)을 이용해서 클릭시 on클래스 add되어 스타일 변경</p>
+<p>Card</p>
+<p>포인트지급내역 => PointCard.jsx</p>
+<p>나의캠페인내역 => CampaignCard.jsx</p>
+<p>Snackbar.jsx</p>
+<p>Subtitlebar.jsx</p>
+<p>Tooltip.jsx</p>
+<p>Footer.jsx</p>
 
 
 
