@@ -21,12 +21,12 @@
 
 <br><br>
 <p>🔧 작업내역 🔧 <p>
-<p># selectbox.jsx</p>
+<p># Selectbox.jsx</p>
 <p>- 리엑트 훅(useState)이용해서 클릭시 드롭다운, 아이콘 변화</p>
-<p># titlebar</p>
+<p># Titlebar</p>
 <p>- 캠페인 공통 header => CampaignTitleBar.jsx</p>
 <p>- 기본 공통 header => DefaultTitleBar.jsx</p>
-<p># chip.jsx</p>
+<p># Chip.jsx</p>
 <p>- 여러개 li태그 사용 => map() 함수로 데이터 배열로 관리</p>
 <p>- 리엑트 훅(useState)이용해서 클릭시 on클래스 add되어 스타일 변경</p>
 <p># Navbar.jsx</p>
