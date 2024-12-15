@@ -10,7 +10,7 @@
 <p>- 반응형 작업을 위한 rem사용, html의 font-size 속성에 clamp() 함수를 이용하여 미디어 쿼리 없이 동적 크기 조정 </p>
 
 <br>
-<ul>선언 블록 내 속성 권장 순서</ul>
+<ul>## 선언 블록 내 속성 권장 순서</ul>
 <li>1. **위치 및 표시** 관련 속성: ex) display, position, top, right, bottom...</li>
 <li>2. **사이즈** 관련 속성: ex) width, height, min-width, min-height </li>
 <li>3. **박스 모델** 관련 속성: ex) margin, padding, border, box-sizing </li>
@@ -20,14 +20,12 @@
 <li>7. **상태 관련 속성** (hover, focus 등): ex) :hover: :focus, :active: flex, flex-direction</li>
 
 <br><br>
-<p>🔧 세부 작업내역 🔧 <p>
-<ul>footer.jsx</ul> 
+<p>🔧 작업내역 🔧 <p>
 <ul>selectbox.jsx</ul>
 <li>- 리엑트 훅(useState)이용해서 클릭시 드롭다운, 아이콘 변화</li>
 <ul>titlebar</ul>
 <li>- 캠페인 공통 header => CampaignTitleBar.jsx</li>
 <li>- 기본 공통 header => DefaultTitleBar.jsx</li>
-<pultooltip.jsx</ul> 
 <ul>chip.jsx</ul>
 <li>- 여러개 li태그 사용 => map() 함수로 데이터 배열로 관리</li>
 <li>- 리엑트 훅(useState)이용해서 클릭시 on클래스 add되어 스타일 변경</li>
@@ -36,8 +34,6 @@
 <li>nav를 클릭시 해당 index의 상태만 변화 => 클릭한 index랑 해당 index 확인해서 적용하는 삼항연산자 사용</li>
 <li>onclick 이슈사항</li>
 <li>리엑트 훅(useState)을 이용해서 클릭시 on클래스 add되어 스타일 변경</li>
-<ul>Snackbar.jsx</ul>
-<ul>subtitlebar.jsx</ul>
 <ul>Card</ul>
 <li>포인트지급내역 => PointCard.jsx</li>
 <li>나의캠페인내역 => CampaignCard.jsx</li>
