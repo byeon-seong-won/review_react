@@ -11,11 +11,17 @@ import Chip from './Chip.jsx';
 import Navbar from './Navbar.jsx';
 import Snackbar from './Snackbar.jsx';
 import SubTItleBar from './SubTItleBar.jsx';
+import Faqlist from './Faqlist.jsx';
+import AnnounceList from './Announcelist.jsx';
+import Notifylist from './Notifylist.jsx';
 
 
 function App() {
   return (
     <>
+      <Notifylist/>
+      <AnnounceList/>
+      <Faqlist/>
       <SubTItleBar/>
       <Snackbar/>
       <Chip/>

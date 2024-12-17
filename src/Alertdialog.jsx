@@ -15,7 +15,7 @@ function Alertdialog() {
   return (
     <Alertdialogwrap>
       
-
+    
 
       
     </Alertdialogwrap>
