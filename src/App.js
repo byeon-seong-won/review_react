@@ -14,11 +14,13 @@ import SubTItleBar from './SubTItleBar.jsx';
 import Faqlist from './Faqlist.jsx';
 import AnnounceList from './Announcelist.jsx';
 import Notifylist from './Notifylist.jsx';
+import Alertdialog from './Alertdialog.jsx';
 
 
 function App() {
   return (
     <>
+      <Alertdialog/>
       <Notifylist/>
       <AnnounceList/>
       <Faqlist/>
