@@ -82,7 +82,4 @@ const Alertdialogwrap = styled.div`
         text-decoration: underline;
         color: var(--n200-color);
     }
-
-
-
 `

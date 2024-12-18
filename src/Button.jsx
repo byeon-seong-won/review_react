@@ -4,12 +4,11 @@ import styled from "styled-components";
 function Button () {
 
   return (
-    <SubTitleBarwrap>
+    <Buttonwrap>
       <p>Title</p>
-    </SubTitleBarwrap>
+    </Buttonwrap>
   )
 }
-
 
 export default Button
 
