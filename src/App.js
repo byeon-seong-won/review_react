@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <Button/>
-      {/* <Alertdialog/>
+      <Alertdialog/>
       <Textfield/>
       <Notifylist/>
       <AnnounceList/>
@@ -41,7 +41,7 @@ function App() {
       <CampaignCard/>
       <Selectbox/>
       <Footer/>
-      <Navbar/> */}
+      <Navbar/>
     </>
   );
 }
