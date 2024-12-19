@@ -6,37 +6,37 @@ function CampaignCard () {
     return (
         <CampaignCardwrap>
             <li>
-                <div class="campaign-box">
-                    <div class="thumb-area">
+                <div className="campaign-box">
+                    <div className="thumb-area">
                         <img src={prd} alt="상품리스트"/>
                     </div>
-                    <div class="info-area"> 
-                        <p class="date">2024.08.05</p>
-                        <span class="title">[리뷰] 기본 며칠남음</span>
-                        <p class="point">25,000P</p>
+                    <div className="info-area"> 
+                        <p className="date">2024.08.05</p>
+                        <span className="title">[리뷰] 기본 며칠남음</span>
+                        <p className="point">25,000P</p>
                     </div>
                 </div>
-                <div class="progress-box">
-                    <div class="progress_step">
-                        <div class="step done">
+                <div className="progress-box">
+                    <div className="progress_step">
+                        <div className="step done">
                             <div></div>
                             <span>상품구매</span>
                         </div>
-                        <div class="step active">
+                        <div className="step active">
                             <div></div>
                             <span>리뷰검수</span>
                         </div>
-                        <div class="step">
+                        <div className="step">
                             <div></div>
                             <span>리뷰등록</span>
                         </div>
-                        <div class="step">
+                        <div className="step">
                             <div></div>
                             <span>지급완료</span>
                         </div>
                     </div>
                 </div>
-                <button class="button button_campaign">
+                <button className="button button_campaign">
                     상품구매
                     <span>(-02:59:12)</span>
                 </button>

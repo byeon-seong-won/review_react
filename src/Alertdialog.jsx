@@ -8,10 +8,10 @@ function Alertdialog() {
       <Modalwrap></Modalwrap>
       <Alertdialogwrap>
         <h2>Title</h2>
-        <div class="desc-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, omnis.</div>
-        <div class="button_wrap">
-            <button class="button button_n40">Secondary</button>
-            <button class="button button_red Enabled">Primary</button>
+        <div className="desc-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, omnis.</div>
+        <div className="button_wrap">
+            <button className="button button_n40">Secondary</button>
+            <button className="button button_red Enabled">Primary</button>
         </div>
         <a href="#">문제가 발생했나요? 1:1 문의하기</a>
       </Alertdialogwrap>
